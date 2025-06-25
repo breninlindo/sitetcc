@@ -40,7 +40,7 @@
 .botoes{
     display: flex;
     height: fit-content;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 10px; 
     padding-right: 20%;
@@ -54,7 +54,6 @@
     font-family: 'Hammersmith One', sans-serif;
     width: 75px;
     height: 35px;
-    gap: 5px;
 }
 .btncriar{
    color: white;
