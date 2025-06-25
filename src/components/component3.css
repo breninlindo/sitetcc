@@ -1,0 +1,52 @@
+.corpo3{
+    display: flex;
+    background: linear-gradient(151deg,#3851A7,#5169BC,#6981D1);
+    width: 100vw;
+    height: 706px;
+}
+.linha3{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;  /* centraliza verticalmente */
+    gap: 2rem;  /* espaço entre texto e imagem */
+}
+.tx-container3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50vw;
+}
+.titulo3{
+    font-family: 'Hammersmith One', sans-serif;
+    color:#F0BA2B;
+    font-size: 45px;
+    padding-left: 2%;
+}
+.texto3{
+    font-family: 'Hammersmith One', sans-serif;
+    color:#F0BA2B;
+    font-size: 30px;
+    padding-left: 2%;
+}
+.imgcontainer3{
+    position: relative;
+    padding-right: 2%;
+    justify-content: center;
+    align-items: center;
+}
+.img2{
+    width: 693px;
+    height: 623px;
+    animation: fadeIn 1.5s ease forwards, float 3s ease-in-out infinite;
+    
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
+}

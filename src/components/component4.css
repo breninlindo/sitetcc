@@ -1,0 +1,46 @@
+.corpo4{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 706px;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+.linha4{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;  /* centraliza verticalmente */
+    gap: 2rem;  /* espaço entre texto e imagem */
+}
+.tx-container4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50vw;
+}
+.titulo4{
+    font-family: 'Hammersmith One', sans-serif;
+    color:#00124F;
+    font-size: 45px;
+    padding-left: 2%;
+}
+.texto4{
+    font-family: 'Hammersmith One', sans-serif;
+    color:#00124F;
+    font-size: 30px;
+    padding-left: 2%;
+}
+.img-container4{
+    position: relative;   /* define o contexto de posicionamento */
+    padding-right: 2%;
+    justify-content: center;
+    align-items: center;
+}
+.img3{
+    width: 620px;
+    height: 577px;
+    animation: fadeIn 1.5s ease forwards, float 3s ease-in-out infinite;
+    padding-right: 2%;
+
+}
