@@ -2,9 +2,9 @@ import React from "react";
 import Logo2 from "../assets/logo2.png";
 import Baixe from "../assets/Baixe.png"
 import Redes from "../assets/redes.png"
-import "./footer.css";
+import "./footer2.css";
 
-const Footer = () => {
+const Footer2 = () => {
   return (
     
     <div className="corpofooter">
@@ -22,16 +22,10 @@ const Footer = () => {
             <img src={Redes} className="redes" />
         </div>
         <div className="div-soria">
-        <div className="divisoria"></div>
-        </div>
-        <div className="txfooter-container">
-        <p className="tx-footer">Este projeto é um Trabalho de Conclusão de Curso (TCC), desenvolvido por alunos da ETEC do Guarulhos, com muito empenho, dedicação e carinho.
-            Nosso objetivo é entregar uma ferramenta que realmente ajude no controle financeiro de forma simples, intuitiva e eficiente. Seu apoio, sua colaboração e, claro, seu uso fazem toda a diferença pra nós!
-            Agradecemos por estar aqui, por acreditar no nosso projeto e por fazer parte dessa jornada.</p>
         </div>
         </div>
     </div>
   );
 };
 
-export default Footer;
+export default Footer2;
