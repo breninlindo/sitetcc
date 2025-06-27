@@ -7,8 +7,8 @@ import "./footer2.css";
 const Footer2 = () => {
   return (
     
-    <div className="corpofooter">
-      <div className="">
+    <div className="corpofooter2">
+      <div className="info-container1">
         <div className="">
             <img src={Logo2} className="logo2" />
             <p className="tx-pequeno">Organize. Planeje. Conquiste.</p>
@@ -23,6 +23,19 @@ const Footer2 = () => {
         </div>
         <div className="div-soria">
         </div>
+        </div>
+        <div className="info-container2">
+          <div className="container1">
+            <p className="destaque-ft">FinWise</p>
+            <p className="texto-ft">Conheça</p>
+            <p className="texto-ft">Planos</p>
+            </div>
+            <div className="container2">
+            <p className="destaque-ft">Suporte</p>
+            <p className="texto-ft">Suporte</p>
+            <p className="texto-ft">Política de Privacidade</p>
+            <p className="texto-ft">Termos de Uso</p>
+          </div>
         </div>
     </div>
   );

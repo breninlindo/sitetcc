@@ -1,8 +1,20 @@
-.corpofooter{
+.corpofooter2{
     width: 100vw;
+    display: flex;
+    flex-direction: row;
     height: 253px;
     background-color: #25282B;
     padding: 2rem;
+
+}
+.info-container1{
+    width: 50vw;
+}
+.info-container2{
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+    gap: 10%;
 }
 .tx-pequeno{
     font-family: 'Hammersmith One', sans-serif;
