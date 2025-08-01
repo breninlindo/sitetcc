@@ -1,12 +1,11 @@
 .linha{
-    flex-direction: row;
+    flex-direction: row-reverse;
     display: flex;
     justify-content: center;
     align-items: center;  /* centraliza verticalmente */
     gap: 2rem;  /* espaço entre texto e imagem */
 }
 .box1 {
-  
   background: linear-gradient(153deg,#000B31,#001E82,#0027AD);
   width: 100vw;
   height: fit-content;

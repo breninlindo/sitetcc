@@ -14,6 +14,7 @@ import Footer2 from "./components2/footer2";
 import Info from "./components3/info";
 
 import "./App.css";
+import Info2 from "./components3/info2";
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
           element={
             <>
               <Info/>
+              <Info2/>
               <Footer2 />
 
             </>
