@@ -11,6 +11,7 @@ import Subfooter from "./components/subfooter";
 import Footer from "./components/footer";
 import Politicas from "./components2/politicas";
 import Footer2 from "./components2/footer2";
+import Info from "./components3/info";
 
 import "./App.css";
 
@@ -20,7 +21,7 @@ function App() {
       <Header />
       <Routes>
         <Route
-          path="/"
+          path="/home"
           element={
             <>
               <Home />
@@ -35,10 +36,19 @@ function App() {
           }
         />
         <Route 
-          path="/politicas" 
+          path="/suporte" 
           element={
             <>
               <Politicas />
+              <Footer2 />
+
+            </>
+          } />
+          <Route 
+          path="/sobre" 
+          element={
+            <>
+              <Info/>
               <Footer2 />
 
             </>

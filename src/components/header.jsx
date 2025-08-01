@@ -9,12 +9,9 @@ const Header = () => {
     <div className="corpo">
         <div className="quadro">
         <img src={Logo} className="imagem"/>
-        <p className="textoh">o finwise</p>
-        <Link to="/politicas" className="textoh">suporte v</Link>
-        </div>
-        <div classname="botoes">
-        <button className="btnentrar">Entrar</button>
-        <button className="btncriar">Criar conta</button>
+        <Link to="/home" className="textoh">home</Link>
+        <Link to="/sobre" className="textoh">o finwise</Link>
+        <Link to="/suporte" className="textoh">suporte</Link>
         </div>
     </div>
   );
