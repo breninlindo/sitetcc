@@ -1,19 +1,38 @@
 .bg2{
     background: white;
     height: 1214px;
+    display: flex;
+    flex-direction: column;
 }
 .txbox-info2{
-    width: 731px;
+    width: 50vw;
+}
+.txbox2-info2{
+    width: 50vw;
+}
+.txbox-info2{
+   
 }
 .tx-info2{
     font-family: 'Hammersmith One', sans-serif;
-    color: rgb(52, 14, 219);
+    color: #00124F;
     font-size: 30px;
-    padding-left: 2%;
-    margin: 0;
-    padding: 0;
+    padding-left: 3vw;
 }
 .imggrupo{
     height: 448px;
     width: 611px;
+}
+.imggrupo2{
+    height: 483px;
+    width: 621px;
+}
+.linhainfo2{
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    height: 637px;
+    align-items: center;  /* centraliza verticalmente */
+    gap: 2rem;  /* espaço entre texto e imagem */
+    padding-left: 3vw;
 }

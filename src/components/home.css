@@ -47,4 +47,5 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;  /* garante que título e texto fiquem alinhados à esquerda dentro do container */
+  width: 60vw;
 }
