@@ -33,9 +33,6 @@ const Info2 = () => {
           <p className="tx-info2">Foi a partir dessa percepção que nasceu o FinWise, uma plataforma pensada para ser simples, eficiente,
              intuitiva e acessível para qualquer pessoa.</p>
         </div>
-        
-        <div></div>
-        <div></div>
     </div>
   );
 };

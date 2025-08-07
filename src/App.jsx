@@ -12,9 +12,12 @@ import Footer from "./components/footer";
 import Politicas from "./components2/politicas";
 import Footer2 from "./components2/footer2";
 import Info from "./components3/info";
+import Info2 from "./components3/info2";
+import Info3 from "./components3/info3";
+import Info4 from "./components3/info4";
 
 import "./App.css";
-import Info2 from "./components3/info2";
+
 
 function App() {
   return (
@@ -51,6 +54,9 @@ function App() {
             <>
               <Info/>
               <Info2/>
+              <Info3/>
+              <Info3/>
+              <Info4/>
               <Footer2 />
 
             </>

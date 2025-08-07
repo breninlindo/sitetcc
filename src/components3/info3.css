@@ -1,0 +1,27 @@
+.bg3{
+    background: linear-gradient(158deg,#2F448C,#6981D1);
+    height: 1603px;
+}
+.txbox-tituloinfo{
+    padding-top: 1.5rem;
+    padding-left: 3vw;
+}
+.txbox-info3{
+    padding: 2%;
+    width: 95vw;
+}
+.tx-info3{
+    font-family: 'Hammersmith One', sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+}
+.quadro-info{
+    align-items: center;
+    
+}
+.imgfoco{
+    width: 1361.54px;
+    height: 650.72px;
+    align-items: center;
+    padding: 20px;
+}
