@@ -1,0 +1,22 @@
+.fundo{
+    background: linear-gradient(140deg,#000B31,#001E82,#0027AD);
+    display: flex;
+    align-items: center;
+    height: 461px;
+    width: 100vw;
+
+}
+.txboxctt{
+    width: 100vw;
+    justify-items: center;
+}
+.tituloctt{
+    font-family: 'Hammersmith One', sans-serif;
+    color: #F0BA2B;
+    font-size: 50px;
+}
+.txctt{
+    font-family: 'Hammersmith One', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+}

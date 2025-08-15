@@ -15,6 +15,7 @@ import Info from "./components3/info";
 import Info2 from "./components3/info2";
 import Info3 from "./components3/info3";
 import Info4 from "./components3/info4";
+import Contato from "./components4/contato";
 
 import "./App.css";
 
@@ -61,6 +62,14 @@ function App() {
 
             </>
           } />
+          <Route 
+          path="/contato"
+          element={
+            <>
+            <Contato/>
+            <Footer2/>
+            </>
+          }/>
       </Routes>
     </Router>
   );

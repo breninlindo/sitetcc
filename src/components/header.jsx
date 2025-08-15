@@ -11,6 +11,7 @@ const Header = () => {
         <img src={Logo} className="imagem"/>
         <Link to="/" className="textoh">Home</Link>
         <Link to="/sobre" className="textoh">O Finwise</Link>
+        <Link to="/contato" className="textoh">Contato</Link>
         <Link to="/suporte" className="textoh">Suporte</Link>
         </div>
     </div>
