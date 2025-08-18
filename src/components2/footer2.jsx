@@ -1,6 +1,6 @@
 import React from "react";
 import Logo2 from "../assets/logo2.png";
-import Baixe from "../assets/Baixe.png"
+import Baixe from "../assets/baixe.png"
 import Redes from "../assets/redes.png"
 import "./footer2.css";
 
