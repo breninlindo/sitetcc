@@ -1,4 +1,4 @@
-.corpo6{
+.corpo6 {
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -6,40 +6,100 @@
     justify-content: center;
     background-color: rgb(255, 255, 255);
 }
-.linha6{
+
+.linha6 {
     flex-direction: row;
     display: flex;
     justify-content: center;
-    align-items: center;  /* centraliza verticalmente */
-    gap: 2rem;  /* espaço entre texto e imagem */
+    align-items: center;  
+    gap: 2rem;  
 }
-.tx-container6{
+
+.tx-container6 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 50vw;
 }
-.titulo6{
+
+.titulo6 {
     font-family: 'Hammersmith One', sans-serif;
     color:#000000;
     font-size: 45px;
     padding-left: 2%;
 }
-.texto6{
+
+.texto6 {
     font-family: 'Hammersmith One', sans-serif;
     color:#000000;
     font-size: 30px;
     padding-left: 2%;
 }
-.img-container6{
-    position: relative;   /* define o contexto de posicionamento */
+
+.img-container6 {
+    position: relative;  
     padding-right: 2%;
     justify-content: center;
     align-items: center;
 }
-.img5{
+
+.img5 {
     width: 689px;
     height: 517px;
     animation: fadeIn 1.5s ease forwards, float 3s ease-in-out infinite;
     padding-right: 2%;
+}
+
+/* --- RESPONSIVIDADE --- */
+@media (max-width: 1024px) {
+  .titulo6 {
+    font-size: 36px;
+  }
+  .texto6 {
+    font-size: 24px;
+  }
+  .tx-container6 {
+    width: 70vw;
+  }
+  .img5 {
+    width: 480px;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .linha6 {
+    flex-direction: column;  /* empilha no mobile */
+    text-align: center;
+  }
+  .tx-container6 {
+    width: 90vw;
+    align-items: center;
+  }
+  .titulo6 {
+    font-size: 28px;
+    padding-left: 0;
+  }
+  .texto6 {
+    font-size: 18px;
+    padding-left: 0;
+  }
+  .img5 {
+    width: 320px;
+    height: auto;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .titulo6 {
+    font-size: 22px;
+  }
+  .texto6 {
+    font-size: 16px;
+  }
+  .img5 {
+    width: 240px;
+    height: auto;
+  }
 }

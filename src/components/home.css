@@ -1,51 +1,102 @@
-.linha{
+/* --- ESTILO PADRÃO (desktop) --- */
+.linha {
     flex-direction: row-reverse;
     display: flex;
     justify-content: center;
-    align-items: center;  /* centraliza verticalmente */
-    gap: 2rem;  /* espaço entre texto e imagem */
+    align-items: center;  
+    gap: 2rem;  
 }
+
 .box1 {
   background: linear-gradient(153deg,#000B31,#001E82,#0027AD);
-  width: 100vw;
+  width: 100%;
   height: fit-content;
-  max-width: 100vw;
-  max-height: fit-content;
-  min-height: fit-content;
   display: flex;
   flex-direction: column;
 }
+
 .texto {
     font-family: 'Hammersmith One', sans-serif;
     color: white;
     font-size: 30px;
     padding-left: 2%;
-    margin-top: 0.5rem;     /* só um pequeno espaço entre o título e o texto */
+    margin-top: 0.5rem;
 }
-.destaqueamarelo{
+
+.destaqueamarelo {
     color:#F0BA2B;
 }
+
 .titulo {
     font-family: 'Hammersmith One', sans-serif;
     color: #F0BA2B;
     font-size: 55px;
-    padding-left: 2%;
-    margin: 0;              /* zera todas as margens padrão */
-    padding: 0;
-    line-height: 1.1;       /* aproxima mais o título do texto */
+    margin: 0;              
+    line-height: 1.1;       
 }
-.celularimg{
+
+.celularimg {
     position: relative;
     width: 390px;
-    height: 639px;
+    height: auto;   /* mantém proporção da imagem */
+    max-width: 100%; /* evita quebrar no mobile */
     padding: 1%;
-    padding-right: 2%;
     animation: fadeIn 1.5s ease forwards, float 3s ease-in-out infinite;
     z-index: 1;
 }
+
 .text-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;  /* garante que título e texto fiquem alinhados à esquerda dentro do container */
+  align-items: flex-start;  
   width: 60vw;
+}
+
+
+/* --- RESPONSIVIDADE --- */
+@media (max-width: 1024px) {
+  .titulo {
+    font-size: 40px;
+  }
+  .texto {
+    font-size: 22px;
+  }
+  .text-container {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .linha {
+    flex-direction: column;   /* coloca imagem em cima e texto embaixo */
+    text-align: center;
+  }
+  .text-container {
+    width: 90vw;
+    align-items: center; /* centraliza no mobile */
+  }
+  .titulo {
+    font-size: 32px;
+  }
+  .texto {
+    font-size: 18px;
+    padding-left: 0;
+  }
+  .celularimg {
+    width: 70%;  
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .titulo {
+    font-size: 26px;
+  }
+  .texto {
+    font-size: 16px;
+  }
+  .celularimg {
+    width: 90%;
+    max-width: 250px;
+  }
 }

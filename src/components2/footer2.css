@@ -1,68 +1,160 @@
-.corpofooter2{
+.corpofooter2 {
     width: 100vw;
     display: flex;
     flex-direction: row;
     height: 253px;
     background-color: #25282B;
     padding: 2rem;
-
 }
-.info-container1{
+
+.info-container1 {
     width: 50vw;
 }
-.info-container2{
+
+.info-container2 {
     display: flex;
     justify-content: space-between;
     width: 30vw;
     gap: 10%;
 }
-.tx-pequeno{
+
+.tx-pequeno {
     font-family: 'Hammersmith One', sans-serif;
     color:#ffffff;
     font-size: 10px;
     padding-left: 2%;
 }
-.tx-footer{
+
+.tx-footer {
     font-family: 'Hammersmith One', sans-serif;
     color:#ffffff;
     font-size: 15px;
     padding-left: 2%;
 }
-.logo2{
+
+.logo2 {
     width: 176px;
     height: 53px;
     padding-left: 2%;
 }
-.baixe{
+
+.baixe {
     width: 150px;
     height: 30px;
     padding: 2%;
 }
-.redes{
+
+.redes {
     width: 96px;
     height: 20px;
     padding-left: 2%;
     padding-bottom: 1%;
 }
-.div-soria{
+
+.div-soria {
     display: flex;
     padding-left: 2%;
 }
-.divisoria{
+
+.divisoria {
     background-color: #ffffff;
     width: 90vw;
     height: 2px;
     padding-left: 2%;
 }
-.destaque{
+
+.destaque {
     color: #F0BA2B;
 }
-.colunas{
+
+.colunas {
     display: flex;
     flex-direction: column;
 }
-.txfooter-container{
+
+.txfooter-container {
     width: 90vw;
 }
 
 
+/* --- RESPONSIVIDADE --- */
+@media (max-width: 1024px) {
+  .tx-footer {
+    font-size: 14px;
+  }
+  .logo2 {
+    width: 150px;
+    height: 45px;
+  }
+  .baixe {
+    width: 130px;
+    height: 28px;
+  }
+  .redes {
+    width: 80px;
+    height: 18px;
+  }
+  .info-container1 {
+    width: 60vw;
+  }
+  .info-container2 {
+    width: 40vw;
+    gap: 8%;
+  }
+}
+
+@media (max-width: 768px) {
+  .corpofooter2 {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  .info-container1, .info-container2 {
+    width: 100%;
+    justify-content: center;
+  }
+  .tx-footer {
+    font-size: 12px;
+    padding-left: 0;
+  }
+  .tx-pequeno {
+    font-size: 9px;
+    padding-left: 0;
+  }
+  .logo2 {
+    width: 130px;
+    height: 40px;
+    padding-left: 0;
+  }
+  .baixe {
+    width: 110px;
+    height: 25px;
+  }
+  .redes {
+    width: 70px;
+    height: 15px;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .tx-footer {
+    font-size: 11px;
+  }
+  .tx-pequeno {
+    font-size: 8px;
+  }
+  .logo2 {
+    width: 110px;
+    height: 35px;
+  }
+  .baixe {
+    width: 90px;
+    height: 22px;
+  }
+  .redes {
+    width: 60px;
+    height: 12px;
+  }
+}

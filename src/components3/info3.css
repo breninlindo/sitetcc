@@ -1,27 +1,69 @@
-.bg3{
+.bg3 {
     background: linear-gradient(158deg,#2F448C,#6981D1);
     height: 1603px;
 }
-.txbox-tituloinfo{
+
+.txbox-tituloinfo {
     padding-top: 1.5rem;
     padding-left: 3vw;
 }
-.txbox-info3{
+
+.txbox-info3 {
     padding: 2%;
     width: 95vw;
 }
-.tx-info3{
+
+.tx-info3 {
     font-family: 'Hammersmith One', sans-serif;
     color: #ffffff;
     font-size: 25px;
 }
-.quadro-info{
+
+.quadro-info {
     align-items: center;
-    
 }
-.imgfoco{
+
+.imgfoco {
     width: 1361.54px;
     height: 650.72px;
     align-items: center;
     padding: 20px;
+}
+
+
+/* --- RESPONSIVIDADE --- */
+@media (max-width: 1024px) {
+  .tx-info3 {
+    font-size: 22px;
+  }
+  .imgfoco {
+    width: 1000px;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .txbox-tituloinfo, .txbox-info3 {
+    padding-left: 0;
+    text-align: center;
+  }
+  .tx-info3 {
+    font-size: 20px;
+  }
+  .imgfoco {
+    width: 80%;
+    height: auto;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tx-info3 {
+    font-size: 16px;
+  }
+  .imgfoco {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+  }
 }

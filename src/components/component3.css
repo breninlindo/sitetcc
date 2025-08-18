@@ -1,46 +1,54 @@
-.corpo3{
+.corpo3 {
     display: flex;
     background: linear-gradient(151deg,#3851A7,#5169BC,#6981D1);
     width: 100vw;
     height: 706px;
 }
-.linha3{
+
+.linha3 {
     flex-direction: row;
     display: flex;
     justify-content: center;
-    align-items: center;  /* centraliza verticalmente */
-    gap: 2rem;  /* espaço entre texto e imagem */
+    align-items: center;  
+    gap: 2rem;  
 }
-.tx-container3{
+
+.tx-container3 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 50vw;
 }
-.titulo3{
+
+.titulo3 {
     font-family: 'Hammersmith One', sans-serif;
     color:#F0BA2B;
     font-size: 45px;
     padding-left: 2%;
 }
-.texto3{
+
+.texto3 {
     font-family: 'Hammersmith One', sans-serif;
     color:#F0BA2B;
     font-size: 30px;
     padding-left: 2%;
 }
-.imgcontainer3{
+
+.imgcontainer3 {
     position: relative;
     padding-right: 2%;
     justify-content: center;
     align-items: center;
 }
-.img2{
+
+.img2 {
     width: 693px;
     height: 623px;
     animation: fadeIn 1.5s ease forwards, float 3s ease-in-out infinite;
-    
 }
+
+
+/* --- ANIMAÇÕES --- */
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
@@ -49,4 +57,58 @@
   0% { transform: translateY(0); }
   50% { transform: translateY(-5px); }
   100% { transform: translateY(0); }
+}
+
+
+/* --- RESPONSIVIDADE --- */
+@media (max-width: 1024px) {
+  .titulo3 {
+    font-size: 36px;
+  }
+  .texto3 {
+    font-size: 24px;
+  }
+  .tx-container3 {
+    width: 70vw;
+  }
+  .img2 {
+    width: 500px;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .linha3 {
+    flex-direction: column;  /* empilha no mobile */
+    text-align: center;
+  }
+  .tx-container3 {
+    width: 90vw;
+    align-items: center;
+  }
+  .titulo3 {
+    font-size: 28px;
+    padding-left: 0;
+  }
+  .texto3 {
+    font-size: 18px;
+    padding-left: 0;
+  }
+  .img2 {
+    width: 320px;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .titulo3 {
+    font-size: 22px;
+  }
+  .texto3 {
+    font-size: 16px;
+  }
+  .img2 {
+    width: 240px;
+    height: auto;
+  }
 }

@@ -1,43 +1,46 @@
-.corpo{
-    background:transparent;
+.corpo {
+    background: transparent;
     background-color: #e4e4e48d;
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0 2rem;
-    position: fixed;  /* opcional: fixa no topo */
+    position: fixed;
     top: 0;
     left: 0;
     height: 85px;
     width: 100vw;
     z-index: 5;
-
 }
-.textoh{
+
+.textoh {
     font-family: 'Hammersmith One','bold', sans-serif;
     color:#00124F;
     font-size: 15px;
     padding-left: 2%;
     text-decoration: none;
-
 }
-.textoh:hover{
+
+.textoh:hover {
     color: #FFA200;
 }
-.imagem{
+
+.imagem {
     width: 160px;
     height: 53px;
 }
-.quadro{
+
+.quadro {
     display: flex;
     min-width: 1015px;
     max-width: 1015px;
     height: 53px;
     justify-content: center;
-    align-items: center;   /* centraliza os itens dentro do quadro */
+    align-items: center;
     gap: 1rem; 
 }
-.botoes{
+
+.botoes {
     display: flex;
     height: fit-content;
     justify-content: space-between;
@@ -46,7 +49,8 @@
     gap: 10px; 
     padding-right: 20%;
 }
-.btnentrar{
+
+.btnentrar {
     color:#00124F;
     background: white;
     border-radius: 40px;
@@ -56,8 +60,9 @@
     width: 75px;
     height: 35px;
 }
-.btncriar{
-   color: white;
+
+.btncriar {
+    color: white;
     background: linear-gradient(0deg,#00124F,#0129B4);
     border-radius: 40px;
     border: none;
@@ -65,4 +70,89 @@
     font-family: 'Hammersmith One', sans-serif;
     width: 115px;
     height: 35px; 
+}
+
+
+/* --- RESPONSIVIDADE --- */
+@media (max-width: 1024px) {
+    .textoh {
+        font-size: 14px;
+    }
+    .imagem {
+        width: 140px;
+        height: 45px;
+    }
+    .btnentrar {
+        width: 65px;
+        height: 32px;
+        font-size: 14px;
+    }
+    .btncriar {
+        width: 100px;
+        height: 32px;
+        font-size: 14px;
+    }
+    .quadro {
+        min-width: 90%;
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .corpo {
+        flex-direction: column;
+        height: auto;
+        padding: 0.5rem 1rem;
+        gap: 0.5rem;
+    }
+    .quadro {
+        min-width: 100%;
+        max-width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+    .textoh {
+        font-size: 13px;
+        padding-left: 0;
+    }
+    .imagem {
+        width: 120px;
+        height: 40px;
+    }
+    .botoes {
+        width: 100%;
+        justify-content: center;
+        padding-right: 0;
+    }
+    .btnentrar {
+        width: 60px;
+        height: 30px;
+        font-size: 13px;
+    }
+    .btncriar {
+        width: 90px;
+        height: 30px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .textoh {
+        font-size: 12px;
+    }
+    .imagem {
+        width: 100px;
+        height: 35px;
+    }
+    .btnentrar {
+        width: 55px;
+        height: 28px;
+        font-size: 12px;
+    }
+    .btncriar {
+        width: 80px;
+        height: 28px;
+        font-size: 12px;
+    }
 }

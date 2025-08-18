@@ -1,16 +1,18 @@
 .politicas-container {
-  width: 90vw;;      /* limite na largura para leitura confortável */
-  margin: 0 auto;        /* centraliza na página */
-  padding: 2rem;         /* espaçamento interno */
+  width: 90vw;
+  margin: 0 auto;
+  padding: 2rem;
   background-color: #ffffff;
-  color: #000000;        /* tom azul escuro para texto, combinando com seu tema */
+  color: #000000;
   font-family: 'Hammersmith One', sans-serif;
 }
-.espaco{
-    background-color: transparent;
-    width: 100vw;
-    height: 83px;
+
+.espaco {
+  background-color: transparent;
+  width: 100vw;
+  height: 83px;
 }
+
 .politicas-container h1 {
   font-size: 32px;
   color: #000000;
@@ -43,20 +45,45 @@
   color: #000000;
 }
 
+/* --- RESPONSIVIDADE --- */
+@media (max-width: 1024px) {
+  .politicas-container {
+    padding: 1.5rem;
+  }
+  .politicas-container h1 {
+    font-size: 28px;
+  }
+  .politicas-container h2 {
+    font-size: 22px;
+  }
+  .politicas-container p, .politicas-container li {
+    font-size: 15px;
+  }
+}
+
 @media (max-width: 768px) {
   .politicas-container {
     padding: 1rem;
   }
-
   .politicas-container h1 {
-    font-size: 30px;
+    font-size: 24px;
   }
-
   .politicas-container h2 {
-    font-size: 25px;
+    font-size: 20px;
   }
-
   .politicas-container p, .politicas-container li {
-    font-size: 25px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .politicas-container h1 {
+    font-size: 20px;
+  }
+  .politicas-container h2 {
+    font-size: 18px;
+  }
+  .politicas-container p, .politicas-container li {
+    font-size: 13px;
   }
 }

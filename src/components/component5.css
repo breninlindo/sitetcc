@@ -1,49 +1,115 @@
-.corpo5{
+.corpo5 {
     display: flex;
     background: linear-gradient(151deg,#000B31,#001E82,#0027AD);
     width: 100vw;
     height: 706px;
 }
-.linha5{
+
+.linha5 {
     flex-direction: row;
     display: flex;
     justify-content: center;
-    align-items: center;  /* centraliza verticalmente */
-    gap: 2rem;  /* espaço entre texto e imagem */
+    align-items: center;  
+    gap: 2rem;  
 }
-.img-container5{
+
+.img-container5 {
     position: relative;
     padding-right: 2%;
     justify-content: center;
     align-items: center;
 }
-.img4{
+
+.img4 {
     width: 605px;
     height: 637px;
     padding-left: 2%;
     animation: fadeIn 1.5s ease forwards, float 3s ease-in-out infinite;
 }
-.tx-container5{
+
+.tx-container5 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 50vw;
 }
-.titulo5{
+
+.titulo5 {
     font-family: 'Hammersmith One', sans-serif;
     color:#F0BA2B;
     font-size: 45px;
     padding-left: 2%;
 }
-.texto5{
+
+.texto5 {
     font-family: 'Hammersmith One', sans-serif;
     color:#F0BA2B;
     font-size: 30px;
     padding-left: 2%;
 }
-.btn-container5{
+
+.btn-container5 {
     display: flex;
-    justify-content: flex-end;   /* alinha os botões no final da linha (direita) */
+    justify-content: flex-end;  
     align-items: center;
     width: 100vw; 
+}
+
+
+/* --- RESPONSIVIDADE --- */
+@media (max-width: 1024px) {
+  .titulo5 {
+    font-size: 36px;
+  }
+  .texto5 {
+    font-size: 24px;
+  }
+  .tx-container5 {
+    width: 70vw;
+  }
+  .img4 {
+    width: 450px;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .linha5 {
+    flex-direction: column;  /* empilha no mobile */
+    text-align: center;
+  }
+  .tx-container5 {
+    width: 90vw;
+    align-items: center;
+  }
+  .titulo5 {
+    font-size: 28px;
+    padding-left: 0;
+  }
+  .texto5 {
+    font-size: 18px;
+    padding-left: 0;
+  }
+  .img4 {
+    width: 320px;
+    height: auto;
+    padding-left: 0;
+  }
+  .btn-container5 {
+    justify-content: center; /* botões centralizados no mobile */
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .titulo5 {
+    font-size: 22px;
+  }
+  .texto5 {
+    font-size: 16px;
+  }
+  .img4 {
+    width: 240px;
+    height: auto;
+  }
 }

@@ -1,38 +1,93 @@
-.bg2{
+.bg2 {
     background: white;
     height: 1214px;
     display: flex;
     flex-direction: column;
 }
-.txbox-info2{
+
+.txbox-info2 {
     width: 50vw;
 }
-.txbox2-info2{
+
+.txbox2-info2 {
     width: 50vw;
 }
-.txbox3-info2{
+
+.txbox3-info2 {
    width: 100vw;
 }
-.tx-info2{
+
+.tx-info2 {
     font-family: 'Hammersmith One', sans-serif;
     color: #00124F;
     font-size: 30px;
     padding-left: 3vw;
 }
-.imggrupo{
+
+.imggrupo {
     height: 448px;
     width: 611px;
 }
-.imggrupo2{
+
+.imggrupo2 {
     height: 483px;
     width: 621px;
 }
-.linhainfo2{
+
+.linhainfo2 {
     flex-direction: row;
     display: flex;
     justify-content: flex-start;
     height: 637px;
-    align-items: center;  /* centraliza verticalmente */
-    gap: 2rem;  /* espaço entre texto e imagem */
+    align-items: center;
+    gap: 2rem;
     padding-left: 3vw;
+}
+
+
+/* --- RESPONSIVIDADE --- */
+@media (max-width: 1024px) {
+  .txbox-info2, .txbox2-info2 {
+    width: 70vw;
+  }
+  .tx-info2 {
+    font-size: 24px;
+  }
+  .imggrupo, .imggrupo2 {
+    width: auto;
+    height: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .linhainfo2, .linhainfo {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    gap: 1rem;
+    padding-left: 0;
+  }
+  .txbox-info2, .txbox2-info2, .txbox3-info2 {
+    width: 90%;
+  }
+  .tx-info2 {
+    font-size: 20px;
+    padding-left: 0;
+  }
+  .imggrupo, .imggrupo2 {
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .tx-info2 {
+    font-size: 16px;
+  }
+  .imggrupo, .imggrupo2 {
+    width: 100%;
+    height: auto;
+  }
 }

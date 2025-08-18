@@ -1,27 +1,30 @@
-.fundo2{
+.fundo2 {
     width: 100vw;
     height: 810px;
     display: flex;
     flex-direction: row;
 }
-.coluna{
+
+.coluna {
     width: 50vw;
     display: flex;
     flex-direction: column;
 }
-.linhabox{
+
+.linhabox {
     display: flex;
     flex-direction: row;
-    justify-self: center;
     justify-content: center;
     gap: 5vw;
     padding-top: 5vh;
 }
-.tituloboxctt{
+
+.tituloboxctt {
     padding-top: 5vh;
     width: 45vw;
 }
-.infobox1{
+
+.infobox1 {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
@@ -30,86 +33,79 @@
     height: 25.926vh;
     align-items: center;
     justify-content: center;
-    justify-self: center;
     background-color: #F6DA90;
     border-radius: 25px;
 }
-.inputbox{
+
+.inputbox {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 45vw;
 }
-.btnbox{
+
+.btnbox {
     width: 100%;
     padding-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    align-self: center;
+    cursor: pointer;
 }
-.mapa-box{
+
+.mapa-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
 }
-.emailic{
+
+.emailic {
     width: 44px;
     height: 44px;
 }
-.txctt2{
+
+.txctt2, .txctt3, .destaquectt, .subtituloctt, .destaquectt2, .tituloctt2 {
     font-family: 'Hammersmith One', sans-serif;
-    color: #00124F;
+}
+
+.txctt2, .txctt3 {
     font-size: 15px;
 }
-.txctt3{
-    font-family: 'Hammersmith One', sans-serif;
-    color: #000000;
-    font-size: 15px;
-}
-.destaquectt{
-    font-family: 'Hammersmith One', sans-serif;
+
+.destaquectt, .destaquectt2 {
     color: #F0BA2B;
     font-size: 15px;
 }
-.tituloctt2{
-    font-family: 'Hammersmith One', sans-serif;
+
+.tituloctt2 {
     color: #F0BA2B;
     font-size: 45px;
 }
-.subtituloctt{
-    font-family: 'Hammersmith One', sans-serif;
+
+.subtituloctt {
     color: #000000;
     font-size: 18px;
 }
-.destaquectt2{
-    font-family: 'Hammersmith One', sans-serif;
-    color: #F0BA2B;
-    font-size: 18px;
-}
-.input1{
-    font-family: 'Hammersmith One', sans-serif;
-    color: #000000;
+
+.input1, .input2 {
     font-size: 15px;
     border-width: 2px;
     border-radius: 20px;
     border-color: #000000;
+    width: 100%;
+}
+
+.input1 {
     height: 53.33px;
-    width: 100%;
 }
-.input2{
-    font-family: 'Hammersmith One', sans-serif;
-    color: #000000;
-    font-size: 15px;
-    border-width: 2px;
-    border-radius: 20px;
-    border-color: #000000;
+
+.input2 {
     height: 224px;
-    width: 100%;
 }
-.btnenviar{
+
+.btnenviar {
     color: #ffffff;
     background-color: #F0BA2B;
     border-radius: 18px;
@@ -118,4 +114,65 @@
     align-items: center;
     width: 30vw;
     height: 46.76px;
+    
+}
+
+
+/* --- RESPONSIVIDADE --- */
+@media (max-width: 1024px) {
+  .tituloctt2 {
+    font-size: 36px;
+  }
+  .subtituloctt, .txctt2, .txctt3 {
+    font-size: 16px;
+  }
+  .btnenviar {
+    width: 40vw;
+  }
+  .imggrupo, .imggrupo2 {
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .fundo2 {
+    flex-direction: column;
+    height: auto;
+    gap: 2rem;
+  }
+  .coluna {
+    width: 90vw;
+    align-items: center;
+  }
+  .linhabox {
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 2rem;
+  }
+  .tituloboxctt, .inputbox {
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+  }
+  .btnenviar {
+    width: 60%;
+  }
+  .infobox1 {
+    width: 80%;
+    height: auto;
+    padding: 1rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .tituloctt2 {
+    font-size: 28px;
+  }
+  .subtituloctt, .txctt2, .txctt3 {
+    font-size: 14px;
+  }
+  .btnenviar {
+    width: 80%;
+  }
 }
