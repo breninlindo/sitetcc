@@ -57,7 +57,6 @@ function App() {
               <Info/>
               <Info2/>
               <Info3/>
-              <Info3/>
               <Info4/>
               <Footer2 />
 
