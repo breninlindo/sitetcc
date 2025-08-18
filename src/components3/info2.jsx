@@ -1,6 +1,6 @@
 import React from "react";
 import Grupo from "../assets/grupo.png";
-import Grupo2 from "../assets/Grupo2.png"
+import Grupo2 from "../assets/grupo2.png"
 import "./info2.css";
 
 const Info2 = () => {

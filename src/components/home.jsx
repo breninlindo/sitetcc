@@ -1,6 +1,6 @@
 import React from "react";
 import cellImage from "../assets/cell.png";
-import "./Home.css";
+import "./home.css";
 
 const Home = () => {
   return (
