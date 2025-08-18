@@ -1,0 +1,121 @@
+.fundo2{
+    width: 100vw;
+    height: 810px;
+    display: flex;
+    flex-direction: row;
+}
+.coluna{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+.linhabox{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    justify-content: center;
+    gap: 5vw;
+    padding-top: 5vh;
+}
+.tituloboxctt{
+    padding-top: 5vh;
+    width: 45vw;
+}
+.infobox1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 19.444vw;
+    min-width: fit-content;
+    height: 25.926vh;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    background-color: #F6DA90;
+    border-radius: 25px;
+}
+.inputbox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 45vw;
+}
+.btnbox{
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.mapa-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.emailic{
+    width: 44px;
+    height: 44px;
+}
+.txctt2{
+    font-family: 'Hammersmith One', sans-serif;
+    color: #00124F;
+    font-size: 15px;
+}
+.txctt3{
+    font-family: 'Hammersmith One', sans-serif;
+    color: #000000;
+    font-size: 15px;
+}
+.destaquectt{
+    font-family: 'Hammersmith One', sans-serif;
+    color: #F0BA2B;
+    font-size: 15px;
+}
+.tituloctt2{
+    font-family: 'Hammersmith One', sans-serif;
+    color: #F0BA2B;
+    font-size: 45px;
+}
+.subtituloctt{
+    font-family: 'Hammersmith One', sans-serif;
+    color: #000000;
+    font-size: 18px;
+}
+.destaquectt2{
+    font-family: 'Hammersmith One', sans-serif;
+    color: #F0BA2B;
+    font-size: 18px;
+}
+.input1{
+    font-family: 'Hammersmith One', sans-serif;
+    color: #000000;
+    font-size: 15px;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: #000000;
+    height: 53.33px;
+    width: 100%;
+}
+.input2{
+    font-family: 'Hammersmith One', sans-serif;
+    color: #000000;
+    font-size: 15px;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: #000000;
+    height: 224px;
+    width: 100%;
+}
+.btnenviar{
+    color: #ffffff;
+    background-color: #F0BA2B;
+    border-radius: 18px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 46.76px;
+}

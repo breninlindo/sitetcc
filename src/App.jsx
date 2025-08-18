@@ -16,6 +16,7 @@ import Info2 from "./components3/info2";
 import Info3 from "./components3/info3";
 import Info4 from "./components3/info4";
 import Contato from "./components4/contato";
+import Contato2 from "./components4/contato2";
 
 import "./App.css";
 
@@ -67,6 +68,7 @@ function App() {
           element={
             <>
             <Contato/>
+            <Contato2/>
             <Footer2/>
             </>
           }/>
