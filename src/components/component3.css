@@ -1,13 +1,14 @@
 .corpo3 {
     display: flex;
     background: linear-gradient(151deg,#3851A7,#5169BC,#6981D1);
+    justify-content: center;
     width: 100vw;
     height: 706px;
 }
 
 .linha3 {
-    flex-direction: row;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;  
     gap: 2rem;  
@@ -34,7 +35,7 @@
     padding-left: 2%;
 }
 
-.imgcontainer3 {
+.img-container3 {
     position: relative;
     padding-right: 2%;
     justify-content: center;

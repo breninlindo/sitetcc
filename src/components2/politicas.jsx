@@ -1,5 +1,6 @@
 import React from "react";
 import "./politicas.css";
+import { Link } from "react-router-dom";
 
 const Politicas = () => {
   return (
@@ -155,7 +156,7 @@ const Politicas = () => {
       <p>Em caso de dúvidas, solicitações, reclamações ou para exercer seus direitos relacionados à privacidade 
         e proteção de dados, entre em contato com o responsável pelo tratamento dos dados:</p>
       <ul>
-        <li className="destaque">Precisa de Ajuda?</li>
+        <Link to="/contato" className="destaque-link"><li >Precisa de Ajuda?</li></Link>
         <li>Responsável: Equipe FinWise</li>
       </ul>
     </div>

@@ -12,6 +12,16 @@
   width: 100vw;
   height: 83px;
 }
+.destaque-link{
+    font-family: 'Hammersmith One','bold', sans-serif;
+    color:#FFA200;
+    font-size: 15px;
+    padding-left: 2%;
+    text-decoration: none;
+}
+.destaque-link:hover {
+    color: #00124F;
+}
 
 .politicas-container h1 {
   font-size: 32px;

@@ -9,7 +9,7 @@ const Footer = () => {
     
     <div className="corpofooter">
       <div className="">
-        <div className="">
+        <div className="coluna">
             <img src={Logo2} className="logo2" />
             <p className="tx-pequeno">Organize. Planeje. Conquiste.</p>
         </div>

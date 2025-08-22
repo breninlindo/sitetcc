@@ -106,15 +106,23 @@
 }
 
 .btnenviar {
-    color: #ffffff;
-    background-color: #F0BA2B;
-    border-radius: 18px;
-    border: none;
-    justify-content: center;
-    align-items: center;
-    width: 30vw;
-    height: 46.76px;
-    
+  color: #ffffff;
+  background-color: #F0BA2B;
+  border-radius: 18px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+  height: 46.76px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+}
+
+
+.btnenviar.clicado {
+  background-color: #d9a619;
+  transform: scale(0.97);
+  box-shadow: 0 0 10px rgba(240, 186, 43, 0.5);
 }
 
 

@@ -4,9 +4,8 @@ import "./component3.css";
 
 const Component3 = () => {
   return (
-    
     <div className="corpo3">
-    <div className="linha1">
+    <div className="linha3">
         <div className="img-container3">
             <img src={Cell2} className="img2"/>
         </div>

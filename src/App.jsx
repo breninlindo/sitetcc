@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ScrollToTop from "./ScrollToTop";
 import Header from "./components/header";
 import Home from "./components/home";
 import Component2 from "./components/component2";
@@ -21,6 +22,7 @@ import Contato2 from "./components4/contato2";
 import "./App.css";
 
 
+
 function App() {
   return (
     <Router>
@@ -30,6 +32,7 @@ function App() {
           path="/"
           element={
             <>
+              <ScrollToTop/>
               <Home />
               <Component2 />
               <Component3 />
@@ -45,6 +48,7 @@ function App() {
           path="/suporte" 
           element={
             <>
+              <ScrollToTop/>
               <Politicas />
               <Footer2 />
 
@@ -54,6 +58,7 @@ function App() {
           path="/sobre" 
           element={
             <>
+              <ScrollToTop/>
               <Info/>
               <Info2/>
               <Info3/>
@@ -66,6 +71,7 @@ function App() {
           path="/contato"
           element={
             <>
+            <ScrollToTop/>
             <Contato/>
             <Contato2/>
             <Footer2/>

@@ -1,6 +1,7 @@
 .corpo5 {
     display: flex;
     background: linear-gradient(151deg,#000B31,#001E82,#0027AD);
+    justify-content: center;
     width: 100vw;
     height: 706px;
 }

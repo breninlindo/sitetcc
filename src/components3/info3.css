@@ -4,7 +4,8 @@
 }
 
 .txbox-tituloinfo {
-    padding-top: 1.5rem;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
     padding-left: 3vw;
 }
 
@@ -20,7 +21,9 @@
 }
 
 .quadro-info {
+  display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .imgfoco {
