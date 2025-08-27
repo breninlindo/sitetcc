@@ -157,7 +157,6 @@ const Politicas = () => {
         e proteção de dados, entre em contato com o responsável pelo tratamento dos dados:</p>
       <ul>
         <Link to="/contato" className="destaque-link"><li >Precisa de Ajuda?</li></Link>
-        <li>Responsável: Equipe FinWise</li>
       </ul>
     </div>
   );

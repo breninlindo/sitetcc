@@ -12,7 +12,7 @@ const Header = () => {
         <Link to="/" className="textoh">Home</Link>
         <Link to="/sobre" className="textoh">O Finwise</Link>
         <Link to="/contato" className="textoh">Suporte</Link>
-        <Link to="/suporte" className="textoh">Políticas de privacidade</Link>
+        <Link to="/suporte" className="textoh">Políticas e termos</Link>
         </div>
     </div>
   );

@@ -11,6 +11,7 @@ import Component6 from "./components/component6";
 import Subfooter from "./components/subfooter";
 import Footer from "./components/footer";
 import Politicas from "./components2/politicas";
+import Politicas2 from "./components2/politicas2";
 import Footer2 from "./components2/footer2";
 import Info from "./components3/info";
 import Info2 from "./components3/info2";
@@ -50,6 +51,7 @@ function App() {
             <>
               <ScrollToTop/>
               <Politicas />
+              <Politicas2/>
               <Footer2 />
 
             </>

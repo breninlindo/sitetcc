@@ -22,9 +22,9 @@ const Info2 = () => {
         <div className="linhainfo2">
           <div><img src={Grupo2} className="imggrupo2" alt="" /></div>
           <div className="txbox2-info2">
-          <p className="tx-info2">Desde o início, identificamos um <span className="destaqueamarelo"> problema</span> 
-            muito presente na sociedade: a dificuldade que muitas pessoas enfrentam em <span className="destaqueamarelo"> controlar</span>
-            suas finanças. Seja pela falta de acesso a ferramentas eficientes, pela <span className="destaqueamarelo"> complexidade</span>
+          <p className="tx-info2">Desde o início, identificamos um <span className="destaqueamarelo"> problema </span> 
+            muito presente na sociedade: a dificuldade que muitas pessoas enfrentam em <span className="destaqueamarelo"> controlar </span>
+            suas finanças. Seja pela falta de acesso a ferramentas eficientes, pela <span className="destaqueamarelo"> complexidade </span>
             de alguns aplicativos ou simplesmente pela ausência de <span className="destaqueamarelo"> incentivo</span>, 
             cuidar do próprio dinheiro, muitas vezes, parece mais difícil do que deveria ser.</p>
           </div>
