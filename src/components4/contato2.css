@@ -46,7 +46,7 @@
 
 .btnbox {
     width: 100%;
-    padding-top: 10px;
+    padding: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,11 +136,25 @@
   }
   .btnenviar {
     width: 40vw;
+    padding: 1rem;
   }
   .imggrupo, .imggrupo2 {
     width: 80%;
     height: auto;
   }
+  .infobox1 {
+    align-self: center;
+    min-width: 45%;
+    height: auto;
+    padding: 1rem 0;
+  }
+  .linhabox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5vw;
+    padding-top: 5vh;
+}
 }
 
 @media (max-width: 768px) {
@@ -148,6 +162,7 @@
     flex-direction: column;
     height: auto;
     gap: 2rem;
+    align-items: center;
   }
   .coluna {
     width: 90vw;
@@ -165,12 +180,23 @@
   }
   .btnenviar {
     width: 60%;
+    padding: 1rem;
   }
   .infobox1 {
-    width: 80%;
+    align-self: center;
+    min-width: 45%;
     height: auto;
     padding: 1rem 0;
   }
+  .linhabox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    padding-top: 5vh;
+    width: 100vw;
+}
 }
 
 @media (max-width: 480px) {
@@ -182,5 +208,19 @@
   }
   .btnenviar {
     width: 80%;
+    padding: 1rem;
   }
+  .infobox1 {
+    align-self: center;
+    min-width: 45%;
+    height: auto;
+    padding: 1rem 0;
+  }
+  .linhabox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5vw;
+    padding-top: 5vh;
+}
 }

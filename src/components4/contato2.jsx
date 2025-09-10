@@ -61,7 +61,7 @@ const Contato2 = () => {
         <div className="mapa-box">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.225536069024!2d-46.6565715!3d-23.5476846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59d5b71af63b%3A0xf79c1a8c9294d69c!2sR.%20Cristóbal%20Cláudio%20Elilo%2C%2088%20-%20Parque%20Cecap%2C%20Guarulhos%20-%20SP%2C%2007190-065!5e0!3m2!1spt-BR!2sbr!4v1690000000000!5m2!1spt-BR!2sbr"
-            width="840px"
+            width="95%"
             height="300px"
             allowFullScreen=""
             loading="lazy"
