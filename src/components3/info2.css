@@ -1,6 +1,7 @@
 .bg2 {
     background: white;
-    height: 1214px;
+    height: fit-content;
+    padding: 2%;
     display: flex;
     justify-content: center;
     flex-direction: column;

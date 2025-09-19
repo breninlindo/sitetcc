@@ -1,6 +1,7 @@
 .bg3 {
     background: linear-gradient(158deg,#2F448C,#6981D1);
-    height: 1603px;
+    height: fit-content;
+    padding: 2%;
 }
 
 .txbox-tituloinfo {
@@ -24,11 +25,12 @@
   display: flex;
     align-items: center;
     justify-content: center;
+    width: fit-content;
 }
 
 .imgfoco {
-    width: 1361.54px;
-    height: 650.72px;
+    width: 90.54vw;
+    height: 85.34vh;
     align-items: center;
     padding: 20px;
 }
