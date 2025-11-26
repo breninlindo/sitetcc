@@ -1,5 +1,6 @@
 import React from "react";
 import Foco from "../assets/foco.png"
+import Feceg from "../assets/feceg.jpeg"
 import "./info3.css";
 
 const Info3 = () => {

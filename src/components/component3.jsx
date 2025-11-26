@@ -14,7 +14,7 @@ const Component3 = () => {
             <p className="texto3">Acompanhe seu saldo, veja seus gastos e tenha clareza total de onde seu dinheiro vai.
                  Tudo na palma da mão.</p>
             <div className="btn-container">
-            <button className="btnbaixar">Baixe o Aplicativo</button>
+            <button className="btnbaixar"><a href="/base.apk" download>Baixe o Aplicativo</a></button>
             </div>
         </div>
     </div>

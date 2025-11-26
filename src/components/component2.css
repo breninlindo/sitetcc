@@ -46,6 +46,15 @@
     width: 283px;
     height: 70px; 
 }
+a{
+  color: white;
+  font-size: 30px;
+  font-family: 'Hammersmith One', sans-serif;
+  text-decoration: none;
+}
+a:hover{
+  color: #000000;
+}
 
 .img-container {
     position: relative;

@@ -11,7 +11,7 @@ const Component4 = () => {
             <h1 className="titulo4">Metas que viram conquistas.</h1>
             <p className="texto4">Quer viajar, quitar dívidas ou guardar dinheiro? Crie metas
                  personalizadas e veja seu dinheiro trabalhar por você.</p>
-            <button className="btnbaixar">Baixe o Aplicativo</button>
+            <button className="btnbaixar"><a href="/base.apk" download>Baixe o Aplicativo</a></button>
         </div>
         <div className="img-container4">
             <img src={Cell3} className="img3"/>
