@@ -13,7 +13,7 @@ const Component2 = () => {
         <h1 className="titulo1">Seu Dinheiro, Sua Liberdade.</h1>
         <p className="texto1">Chega de se perder nas contas! Com o FinWise, você controla suas finanças de forma fácil,
              rápida e sem complicações.</p>
-        <button className="btnbaixar"><a href="/base.apk" download>Baixe o Aplicativo</a></button>
+        <button className="btnbaixar"><a href="/finwise.apk" download>Baixe o Aplicativo</a></button>
         </div>
         <div className="img-container">
         <img className="imgfundo" src={Fundo}/>

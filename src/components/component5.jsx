@@ -15,7 +15,7 @@ const Component5 = () => {
             <p className="texto5">Gráficos inteligentes e alertas te ajudam a entender seus hábitos,
                  tomar decisões e nunca mais esquecer uma conta.</p>
             <div className="btn-container">
-            <button className="btnbaixar"><a href="/base.apk" download>Baixe o Aplicativo</a></button>
+            <button className="btnbaixar"><a href="/finwise.apk" download>Baixe o Aplicativo</a></button>
             </div>
         </div>
     </div>
